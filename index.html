@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .row {
+            margin-top: 200px;
+        height: 300px;
+        display: flex;
+        /* justify-content: center; */
+        justify-content: center;
+        /* align-items: center; */
+        align-items: center;
+      }
+        .box {
+        background: white;
+        height: 800px;
+        width: 350px;
+        padding: 10px;
+        margin: 10px;
+        border: 10px ;
+        border-radius: 5px;
+        box-shadow: 0px 0px 2px 2px rgb(198, 191, 191);
+        
+        
+        
+      }
+      .c{
+        display: flex;
+        justify-content: center;
+      }
+      .button {
+  background-color:rgb(28, 66, 234); 
+  height: 50px;
+  width: 100%;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 70px;
+  
+  
+}
+    input[type="email"],input[type="password"]{
+        width:340px;
+        height:50px;
+        border-radius: 5px;
+      }
+      input[type="text"]{
+        width:340px;
+        height:50px;
+        border-radius: 70px;
+      }
+
+a{
+        text-decoration: none;
+      }
+      
+    </style>
+</head>
+<body>
+   <h1> <img src="/assets/images/link.png" /></h1>
+   
+    
+    <div class="row">
+        
+    <div class="box">
+        
+        <h1>Sign in</h1>
+        <div>Stay updated on your professional world.</div>
+        <div class="c">
+        <p>
+            <input type="email" required placeholder="Email or Phone" autofocus >
+        </p>
+        </div>
+        <div class="c">
+        <p>
+            <input type="password" required placeholder="password" autofocus>
+
+        </p>
+    </div>
+    <h3><a href="#forgot">Forgot password?</a></h3>
+
+        <p>
+            <input type="checkbox" id="chkRemember"><label for="chkRemember">Keep me logged in</label>
+        </p>
+        <div class="c">
+        
+        <button class="button">sign in</button>
+        </div>
+        <div> <img src="/assets/images/or.png" /></div>
+        <div class="c">
+        <p>By clicking Continue, you agree to LinkedIn’s User
+              Agreement, Privacy Policy, and Cookie Policy.
+        </p>
+     </div>
+     <p>
+        <input type="text">
+    </p>
+    <p>
+        <input type="text">
+    </p>
+    <p>
+        <input type="text">
+    </p>
+      </div>
+    </div>
+</body>
+</html>
